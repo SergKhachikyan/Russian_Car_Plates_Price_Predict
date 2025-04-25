@@ -78,12 +78,12 @@ model.add(Dense(1))  # Output layer
 model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(X_train, y_train, epochs=50, batch_size=32)
 
-##🏆 Model Performance
+🏆 Model Performance
  .Loss Function: The model uses Mean Squared Error (MSE) as the loss function, which is appropriate for regression tasks.
 
  .Metrics: The performance of the model is evaluated using MSE and other regression metrics.
 
-##📊 Visualizations
+📊 Visualizations
  .Price Distribution: Visualize the distribution of car plate prices across different regions and car types using histograms.
 
  .Correlation Heatmap: Visualize the correlations between different features to understand their relationships with the price.
