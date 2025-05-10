@@ -86,4 +86,7 @@ model.fit(X_train, y_train, epochs=50, batch_size=32)
 📊 Visualizations
  .Price Distribution: Visualize the distribution of car plate prices across different regions and car types using histograms.
 
+![download](https://github.com/user-attachments/assets/016dcb59-cfeb-42b7-bb70-67f9380677ab)
+
+
  .Correlation Heatmap: Visualize the correlations between different features to understand their relationships with the price.
